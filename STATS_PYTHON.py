@@ -1,18 +1,8 @@
-##---
-##  TITLE: "Statistical Methods for Data Mining"
-##  AUTHOR: "Rajesh Jakhotia"
-##  COMPANY: "K2 ANALYTICS FINISHING SCHOOL PVT LTD"
-##  WEBSITE: "www.k2analytics.co.in"
-##  EMAIL: ar.jakhotia@k2analytics.co.in
-##---
 
 ## -------------------------------------------------------------
 import pandas as pd
 import numpy as np
 import os
-
-os.getcwd()
-os.chdir("d:/k2analytics/datafile")
 
 inc_exp = pd.read_csv("Inc_Exp_Data.csv")
 inc_exp.head(10)
